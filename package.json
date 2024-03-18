@@ -1,20 +1,17 @@
 {
-  "name": "cypress-assignment",
+  "name": "nord-cypress-assignment",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
+  "description": "E2e testing assignment for Nord Security",
+  "scripts": {
     "test": "cypress run",
     "test:ui": "cypress open --e2e"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Mykola Iskorostenskyi",
   "license": "ISC",
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^13.7.0"
   },
   "devDependencies": {

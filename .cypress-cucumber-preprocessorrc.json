@@ -1,0 +1,3 @@
+{
+  "stepDefinitions": ["test/specs/[filepath]/**/*.definitions.ts"]
+}
