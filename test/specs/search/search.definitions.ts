@@ -120,7 +120,7 @@ Then(
       // related articles that appear in the middle. That's why I made the search specific to the section after the article
       const getRelatedArticleCategory = () => {
         return cy
-          .get('[class*="WidgetContainer"]')
+          .get('[class*="WidgetContainerr"]')
           .getByTestId('blog-post-category');
       };
 
