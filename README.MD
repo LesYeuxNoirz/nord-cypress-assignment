@@ -10,8 +10,6 @@ To run tests locally, follow the instructions below:
 The repository has CI, please refer to the open test PR to see run results, there're both
 failed runs with saved artifacts (a video) and a success run
 
-Each run also prints a neat report in the dedicated PR
-
 _Note_: the CI workflow is triggered only for non-master branches
 
 ### Notes
