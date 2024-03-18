@@ -21,3 +21,5 @@ _Note_: the CI workflow is triggered only for non-master branches
 and add good selectors to the source code
 - All checks are as user-oriented as possible
 - One definitely needs to think re-usability through when using BDD but it requires much more time :)
+
+trigger tests
