@@ -4,6 +4,7 @@
   "description": "E2e testing assignment for Nord Security",
   "scripts": {
     "test": "cypress run --browser chrome",
+    "test:headed": "npm run test -- --headed",
     "test:ui": "cypress open --e2e --browser chrome"
   },
   "keywords": [],

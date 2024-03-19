@@ -4,7 +4,7 @@
 To run tests locally, follow the instructions below:
 1. Clone the repo
 2. Run `npm ci`
-3. Run `npm run test:ui` to open the test runner or `npm run test` to run tests headlessly
+3. Run `npm run test:ui` to open the test runner, `npm run test:headed` to run tests in the headed mode or `npm run test` to run tests headlessly
 
 ### CI
 The repository has CI, please refer to the open test PR to see run results, there're both
