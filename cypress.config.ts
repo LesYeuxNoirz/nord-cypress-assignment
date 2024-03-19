@@ -45,14 +45,6 @@ export default defineConfig({
         }
       });
 
-      // We use this in CI to generate a nice report in PRs
-      config.reporter = process.env.TEST_REPORTER ?? config.reporter;
-
-      config.reporterOptions =
-        (process.env.TEST_REPORTER_OPTIONS &&
-          JSON.parse(process.env.TEST_REPORTER_OPTIONS)) ??
-        config.reporterOptions;
-
       return config;
     }
   }

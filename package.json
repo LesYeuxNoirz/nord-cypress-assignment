@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "E2e testing assignment for Nord Security",
   "scripts": {
-    "test": "cypress run",
-    "test:ui": "cypress open --e2e"
+    "test": "cypress run --browser chrome",
+    "test:ui": "cypress open --e2e --browser chrome"
   },
   "keywords": [],
   "author": "Mykola Iskorostenskyi",

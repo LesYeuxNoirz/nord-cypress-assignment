@@ -18,9 +18,6 @@ jobs:
           node_version: '18'
       - name: Run tests
         uses: cypress-io/github-action@v6
-        env:
-          TEST_REPORTER: 'junit'
-          TEST_REPORTER_OPTIONS: '{"mochaFile": "test/results/test-output-[hash].xml"}'
         with:
           command: npm run test
       - name: Upload artifacts
